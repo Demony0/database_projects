@@ -3,10 +3,10 @@
 
     //connection between database and webpage
     function authentication(){
-        $host="localhost";
-        $username="root";
-        $password="";
-        $database="movies_database";
+        $host="sql201.epizy.com";
+        $username="epiz_28550648";
+        $password="7L9KyBHuqcGArV";
+        $database="epiz_28550648_movies_database";
         $con = new mysqli($host,$username,$password,$database);
         if ($con->error){
             echo "<div style=position:absolute;z-index:3;>ERROR</div>";
